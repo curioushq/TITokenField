@@ -24,4 +24,5 @@ THIS SOFTWARE IS PROVIDED BY TOM IRVING "AS IS" AND ANY EXPRESS OR IMPLIED WARRA
   s.source       = { :git => "https://github.com/curioushq/TITokenField.git", :commit => '12f5b427335fbaac13958828de41a870709545ac' }
   s.platform     = :ios
   s.source_files = 'Classes', '*.{h,m}'
+  s.requires_arc = true
 end
